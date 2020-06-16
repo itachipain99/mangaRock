@@ -1,0 +1,27 @@
+nav {
+    background-color: white;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .14);
+}
+
+button:focus{
+    outline-width: 0px;
+    outline-style: none;
+}
+
+.border-10px{
+    border: 0px 10px;
+}
+.border-20px{
+    boder:0px 20px;
+}
+
+.color-blue {
+    color: blue;
+}
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;
+}
+

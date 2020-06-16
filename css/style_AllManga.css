@@ -1,0 +1,171 @@
+#app {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+#left-content {
+    border-radius: 2px;
+    background-color: white;
+    padding: 2px 0px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .08), 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+
+#right-content {
+    background-color: red;
+}
+
+#all-manga {
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#filter {
+    background-color: #fafafa;
+    padding: 10px 20px;
+}
+
+.btn-filter {
+    background-color: initial;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.btn-filter:hover {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .14);
+}
+
+.click-btn-filter {
+    background-color: rgba(0, 0, 255, 0.699);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+    float: right;
+}
+
+#sort-by {
+    float: left;
+    padding: 6px 15px;
+}
+
+.input {
+    padding: 15px 0px;
+}
+
+.header-filter {
+    padding-top: 5px;
+}
+
+.btnF {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 3px 4px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .14);
+    background-color: rgba(0, 0, 255, 0.699);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+#number-of-manga {
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+
+#all-manga-have {
+    padding: 0px 20px;
+}
+
+#footer {
+    background: #172431;
+    color: #7b8fa3;
+    padding: 40px 0 50px;
+    
+}
+
+#footer a {
+    color: #7b8fa3;
+}
+
+#footer.color-div a {
+    color: gray;
+}
+
+#footer a:hover {
+    color: #f90;
+}
+
+.color-div p {
+    color: gray;
+}
+
+#footer h4.widget-title {
+    color: #adbac8;
+    margin-bottom: 22px;
+}
+
+#footer.color-div h4.widget-title {
+    color: gray;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li {
+    margin-bottom: 10px;
+}
+
+#footer ul li i {
+    color: #f90;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+#footer input {
+    background: #232f3c;
+    border: 1px solid #4e5862;
+    margin-bottom: 10px;
+}
+
+#footer button {
+    background: none;
+    border: 1px solid #4e5862;
+    color: #adbac8;
+    height: 37px;
+    padding: 0 15px;
+}
+
+#footer.color-div button {
+    border: 1px solid gray;
+}
+
+#footer button:hover {
+    color: #f90;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#footer button i {
+    margin-left: 5px;
+    font-size: 10px;
+    color: #f90;
+}
+
+#QRcode{
+    width:110px;
+    height: 150px;
+    background-color: black;
+    padding: 5px 5px; 
+    border-radius: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

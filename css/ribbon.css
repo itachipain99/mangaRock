@@ -1,0 +1,45 @@
+.ribbon-wrapper {
+    width:60px;
+    height:60px;
+    overflow:hidden;
+    position:absolute;
+    top:-5px;
+    right:10px;
+}
+    
+.ribbon {
+    color:#fff;
+    text-align:center;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    position:relative;
+    padding:4px 0;
+    left:1px;
+    top:4px;
+    width:80px;
+    text-transform:uppercase;
+    background-color:#3a5c83;
+}
+    
+.ribbon:before,.ribbon:after {
+    content:"";
+    border-top:3px solid #6e8900;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+    position:absolute;
+    bottom:-3px;
+}
+    
+.ribbon:before {
+    left:0;
+}
+    
+.ribbon:after {
+    right:0;
+}
+    
+.ribbon.hot {
+    background-color:#f90;
+}
